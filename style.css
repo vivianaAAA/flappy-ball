@@ -1,4 +1,4 @@
-{padding: 0;
+body{padding: 0;
 margin: 0;
 }
 
@@ -6,7 +6,7 @@ margin: 0;
 	width: 400px;
 	height: 500px;
 	border: 1px solid black;
-	margin: auto;
+	margin: ;
 	overflow: hidden;
 }
 
@@ -15,15 +15,12 @@ margin: 0;
 	height: 500px;
 	background-color: black;
 	position: relative;
-	left: 100px;
-	bottom: 501px;
+	left: 400px;
 	animation: block 2s infinite linear;
-	margin: auto;
-	overflow: hidden;
 }
 
 @keyFrames block{
-	0%{left: 180px}
+	0%{left: 400px}
 	100%{left: -50px}
 }
 #hole{
@@ -31,9 +28,15 @@ margin: 0;
 	height: 150px;
 	background-color: darkred;
 	position: relative;
-	left: 100px;
-	bottom: 1001px;
+	left: 400px;
+	top: -500px;
 	animation: block 2s infinite linear;
-	margin: auto;
-	overflow: hidden;
+}
+#character{
+	width: 20px;
+	height: 20px;
+	background-color: darkred;
+	position: absolute;
+	top: 100px;
+	border-radius: 50%;
 }
