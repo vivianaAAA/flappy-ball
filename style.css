@@ -39,4 +39,5 @@ margin: 0;
 	position: absolute;
 	top: 100px;
 	border-radius: 50%;
+	background: url('img/ball.png')
 }
